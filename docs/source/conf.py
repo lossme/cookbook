@@ -168,6 +168,12 @@ texinfo_documents = [
 
 
 # md 格式支持
+# pip install recommonmark 不支持表格
 source_parsers = {
     '.md': 'recommonmark.parser.CommonMarkParser',
 }
+
+# pip install sphinx-markdown-tables 添加md表格支持
+extensions = [
+    'sphinx_markdown_tables',
+]
