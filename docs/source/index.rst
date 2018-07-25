@@ -12,4 +12,4 @@ Welcome to cookbook's documentation!
 .. toctree::
 
    userapi/index
-   pytest
+   python/index

@@ -1,3 +1,5 @@
+.. _user_api_contents:
+
 User API
 ========
 
