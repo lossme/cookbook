@@ -31,7 +31,11 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+
+# pip install sphinx-markdown-tables 添加md表格支持
+extensions = [
+    'sphinx_markdown_tables',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -167,13 +171,8 @@ texinfo_documents = [
 ]
 
 
-# md 格式支持
-# pip install recommonmark 不支持表格
+# md 格式支持(表格需要插件支持)
+# pip install recommonmark
 source_parsers = {
     '.md': 'recommonmark.parser.CommonMarkParser',
 }
-
-# pip install sphinx-markdown-tables 添加md表格支持
-extensions = [
-    'sphinx_markdown_tables',
-]

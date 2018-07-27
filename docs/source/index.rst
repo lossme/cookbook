@@ -11,5 +11,9 @@ Welcome to cookbook's documentation!
 
 .. toctree::
 
-   userapi/index
    python/index
+   redis/index
+   elasticsearch/index
+   fluentd/index
+   nginx/index
+   mysql/index
