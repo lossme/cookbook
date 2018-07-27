@@ -17,3 +17,4 @@ Welcome to cookbook's documentation!
    fluentd/index
    nginx/index
    mysql/index
+   kong/index
