@@ -7,3 +7,4 @@ Python 笔记
    :maxdepth: 2
 
    pytest
+   src
