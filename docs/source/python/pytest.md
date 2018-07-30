@@ -79,3 +79,13 @@ pytest --cov=mypackage --cov-report=html -v -s tests
 ```
 
 会生成一份报告`htmlcov`: ![](../_static/image/coverage-test.png)
+
+
+## 设置 pre-commit hook
+
+```sh
+flake8 --install-hook git
+
+# To abort a commit if errors are found
+git config --bool flake8.strict true
+```
