@@ -2,6 +2,7 @@
 
 目录结构[cookbook/python/test_pytest](https://github.com/lossme/cookbook/code/test_pytest)
 
+
 ```sh
 mypackage
 ├── __init__.py
@@ -77,4 +78,4 @@ tests/test_foo.py::test_foo PASSED                                       [100%]
 pytest --cov=mypackage --cov-report=html -v -s tests
 ```
 
-会生成一份报告`htmlcov`
+会生成一份报告`htmlcov`: ![](../_static/image/coverage-test.png)
