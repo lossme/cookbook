@@ -4,7 +4,6 @@ test:
 	pytest -v tests
 coverage:
 	pytest --cov=mysite --cov-report=html -v tests
-
 run:
 	gunicorn manage:app \
 	-b "0.0.0.0:5000" \

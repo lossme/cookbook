@@ -1,6 +1,6 @@
 from flask_restful import Resource
 
-from ..common import verify_json_payload, error_handler
+from ..common import error_handler, verify_json_payload
 from ..models import Todo
 
 
