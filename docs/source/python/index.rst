@@ -7,4 +7,6 @@ Python 笔记
    :maxdepth: 2
 
    pytest
+   pytest-benchmark
+   mock
    src
